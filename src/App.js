@@ -98,7 +98,7 @@ function App() {
         )}
      </select>
      <br></br>
-     {city==="" ? null:<><span>You Selected </span><span className='city'>{city},</span><span className='state'>{state},{country}</span></>}
+     {city==="" ? null:<><span>You Selected </span><span className='city'>{city}, </span><span className='state'>{state}, {country}</span></>}
     </div>
   );
 }
